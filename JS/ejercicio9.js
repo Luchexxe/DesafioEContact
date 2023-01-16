@@ -4,7 +4,6 @@ function cargarArreglo(numero) {
 if (numero > 0)
 
 {
-
   arreglo = [];
   
   do {
@@ -15,11 +14,8 @@ if (numero > 0)
   return arreglo;
 
 }
-else{
-
-  return 'El numero ingresado debe ser mayor a 0'
-}
+else{return 'El numero ingresado debe ser mayor a 0'}
 
 }
-console.log(cargarArreglo(10));
+console.log(cargarArreglo(3));
 
